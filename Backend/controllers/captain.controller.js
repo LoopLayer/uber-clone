@@ -28,13 +28,13 @@ const registerCaptain = asyncHandler(async (req, res) => {
     email,
     password,
     color,
-    plateNumber,
+    plate,
     capacity,
     type,
   } = req.body;
 
   if (
-    [firstName, email, password, color, plateNumber, capacity, type].some(
+    [firstName, email, password, color, plate, capacity, type].some(
       (field) => field?.trim() === ""
     )
   ) {
@@ -56,7 +56,7 @@ const registerCaptain = asyncHandler(async (req, res) => {
     password,
     vehicle: {
       color,
-      plateNumber,
+      plate,
       capacity,
       type,
     },
