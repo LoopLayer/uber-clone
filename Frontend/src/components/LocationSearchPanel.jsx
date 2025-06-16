@@ -3,7 +3,7 @@ import React from 'react'
 
 const LocationSearchPanel = (props) => {
 
-
+ 
   const locations=[
   "B-42 Shyam Nagar, Jaipur, Rajasthan",
   "1600 Amphitheatre Parkway, Mountain View, California",

@@ -68,7 +68,7 @@ VITE_BASE_URL=http://localhost:8000/api/v1
 ```
 
 ### 3. Start the development server
-
+s
 ```bash
 npm run dev
 ```
